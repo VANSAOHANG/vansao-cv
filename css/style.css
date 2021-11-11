@@ -42,10 +42,10 @@ nav{
 .download-cv a {
     color: black;
 }
-ul:hover {
+nav ul:hover {
     color: #fff;
 }
-.active,.nav-item:hover, .nav-link:hover{
+nav .active,nav .nav-item:hover,nav  .nav-link:hover{
     background: rgba(240, 89, 78, 1);
     color: #fff;
 
@@ -79,6 +79,30 @@ ul:hover {
     color: rgba(240, 89, 78, 1);;
 }
 
+/* ----------------------- Footer   -------------- */
+.foot-container {
+    margin: 0 75px;
+    display: flex;
+    justify-content: space-between;
+}
+.fa{
+    margin-top: 5px;
+    color: rgba(240, 89, 78, 1);
+}
+.foot h2 {
+    margin-bottom: 0;
+    padding: 10px;
+}
+footer .form-control {
+    border: 2px solid lightblue;
+}
+.ruler {
+    border: 1px solid ;
+}
+footer h4 {
+    text-align: center;
+}
+
 
 
 /* --------------------home-responsive--------------- */
@@ -95,6 +119,13 @@ ul:hover {
         padding-top: 25%;
         height: 50vh;
     }
+    .hide-form {
+        display: none;
+    }
+    footer {
+        width: 80%;
+        margin: auto;
+    }
 }
 @media (max-width:709px){
     .menu {
@@ -110,15 +141,31 @@ ul:hover {
     }
     
     .home {
-        padding-top: 10%;
-        height: 60vh;
+        width: 100%;
+        padding-top: 25%;
+        height: 40vh;
     }
     .home h1 {
-        font-size: 30px;
+        font-size: 35px;
     }
     .home p {
-        font-size: 20px;
+        font-size: 15px;
     }
+    .hide {
+        display: none;
+    }
+    .foot-container {
+        display: block;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        
+    }
+    .follow {
+        display: flex;
+        margin-left: 13px;
+    }
+  
 }
 /* -----------------------btn componet-------------- */
 .btn {
