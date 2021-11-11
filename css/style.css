@@ -127,7 +127,7 @@ footer h4 {
         margin: auto;
     }
 }
-@media (max-width:709px){
+@media (max-width:375px){
     .menu {
         width: 50%;
         margin: auto;
