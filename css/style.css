@@ -8,8 +8,7 @@ nav{
     display: flex;
     justify-content: space-between;
 
-    /* position: sticky;
-    top: 0; */
+
 }
 .logo {
     margin-top: 5px;
@@ -21,6 +20,7 @@ nav{
 }
 .menu ul{
     display: flex;
+    transition: 0.8s;
 }
 .nav-item {
     list-style: none;
@@ -44,6 +44,7 @@ nav{
 }
 nav ul:hover {
     color: #fff;
+    
 }
 nav .active,nav .nav-item:hover,nav  .nav-link:hover{
     background: rgba(240, 89, 78, 1);
@@ -76,7 +77,7 @@ span {
     padding: 10px 15px;
     border-radius: 3px;
     border: none;
-    
+    transition: 0.8s;
 }
 .btn-one:hover {
     background: none;
@@ -230,7 +231,7 @@ img {
     text-align: center;
     margin-bottom: 60px;
 }
-.my-hobby span{
+.my-hobby span, .edu-container span{
     display: inline-block;
     padding: 10px 15px;
     font-weight: bold;
@@ -251,24 +252,29 @@ img {
     justify-content: space-evenly;
     margin: auto;
     padding: 30px;
+    padding-top: 60px;
     background: #E1E5E8;
     border-radius: 0px;
     box-shadow: 0 0 5px 5px #E1E5E8;
 }
+
 .col-3 {
     width: 20%;
     height: auto;
-    text-align: center;
+    
     box-shadow: 0 0 5px 5px #acbcc9;
     border-radius: 10px;
     padding: 15px;
     border-top: 4px solid rgba(240, 89, 78, 1);
     position: relative;
 }
-.col-3 p {
+.about-container .col-3 {
+    text-align: center;
+}
+.about-container .col-3 p {
     text-align: left;
 }
-.images {
+.about-container .images {
     width: 88px;
     height: 88px;
     margin: auto;
@@ -278,13 +284,74 @@ img {
     
 
 }
-.images img {
+.about-container .images img {
     width: 100%;
     height: 100%;
     border-radius: 40px;
+    border: 1px solid rgb(252, 181, 176);
     
 }
+/* --------------------------Educaton page------------------- */
+.edu-container h4 {
+    margin: 0;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+.react {
+    margin-top: 10px;
+}
+.map {
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+.edu-container .images {
+    width: 100%;
+    height: 30vh;
+       
+   
+}
+.edu-container .images img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 3px 3px grey;
+}
+.edu-container h1{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:786px){
+    .edu-container .rows{
+        flex-wrap: wrap;
+        padding: 30px;
+       
+    }
+    .edu-container .rows .col-3{
+        width: 44%;
+        margin: 5px  ;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
     .logo {
         display: none;
     }
@@ -329,7 +396,7 @@ img {
         margin: 0;
         width: 92%;
     }
-    .rows {
+    .about-container .rows {
         
        width: 100%;
        flex-wrap: wrap;
@@ -351,6 +418,12 @@ img {
    
 }
 @media (max-width:428px){
+    .edu-container .rows {
+        width: 80%;
+    }
+    .edu-container .rows .col-3 {
+        width: 100%;
+    }
     .menu {
         width: 50%;
         margin: auto;
