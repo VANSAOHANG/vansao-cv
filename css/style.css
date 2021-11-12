@@ -189,7 +189,6 @@ footer h4 {
 
 /* -------------------about me--------------- */
 header{
-
     height: 90vh;
     display: flex;
     justify-content: space-between;
@@ -320,7 +319,9 @@ img {
     .text-info {
         height: 77vh;
     }
-   
+    .about-container header {
+        height: 100vh;
+    }
     
    
 }
