@@ -7,6 +7,9 @@ nav{
     background: #fff;
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    z-index: 99999;
 
 
 }
@@ -49,7 +52,7 @@ nav ul:hover {
 nav .active,nav .nav-item:hover,nav  .nav-link:hover{
     background: rgba(240, 89, 78, 1);
     color: #fff;
-
+  
 }
 .home {
     width: 100%;
