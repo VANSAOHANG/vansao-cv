@@ -241,11 +241,12 @@ img {
 
 }
 .my-hobby h2 {
+    margin-top: 60px;
     color: rgba(240, 89, 78, 1);
 }
 .rows {
     width: 90%;
-    
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-evenly;
     margin: auto;
@@ -256,14 +257,13 @@ img {
 }
 .col-3 {
     width: 20%;
-    height: 50vh;
-    
+    height: auto;
     text-align: center;
     box-shadow: 0 0 5px 5px #acbcc9;
     border-radius: 10px;
     padding: 15px;
     border-top: 4px solid rgba(240, 89, 78, 1);
-  
+    position: relative;
 }
 .col-3 p {
     text-align: left;
@@ -272,8 +272,11 @@ img {
     width: 88px;
     height: 88px;
     margin: auto;
-    margin-top: 9px;
-   
+    position: absolute;
+    top: -45px;
+    left: 70px;
+    
+
 }
 .images img {
     width: 100%;
@@ -335,8 +338,14 @@ img {
     .about-container .col-3 {
         width: 43%;
         height: auto;
-        margin-top: 40px;
+        margin-top: 80px;
+      
     }
+    .about-container .images {
+        left: 128px;
+    }
+
+    
    
 }
 @media (max-width:428px){
@@ -395,6 +404,9 @@ img {
     }
     .about-container .col-3 {
         width: 100%;
+    }
+    .about-container .images {
+        left: 115px;
     }
 }
 
