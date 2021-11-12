@@ -315,7 +315,10 @@ img {
         padding-top: 0;
     }
     .my-info {
-        height: 60vh;
+        height: 50vh;
+    }
+    .text-info {
+        height: 77vh;
     }
    
     
@@ -360,7 +363,18 @@ img {
         display: flex;
         margin-left: 13px;
     }
-  
+    .text-info {
+        padding: 20px;
+        height: 940vh;
+
+    }
+    .about-container h1 {
+        font-size: 25px;
+    }
+    .about-container p {
+        font-size: 20px;
+        text-align: left;
+    }
 }
 
 
