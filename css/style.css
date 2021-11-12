@@ -389,11 +389,12 @@ img {
     }
     .text-info {
         padding: 20px;
-        height: 940vh;
+        height: 141vh;
 
     }
     .about-container h1 {
         font-size: 25px;
+        margin-top: 50px;
     }
     .about-container p {
         font-size: 20px;
