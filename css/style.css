@@ -322,7 +322,21 @@ img {
     .about-container header {
         height: 100vh;
     }
-    
+    .my-hobby {
+        margin: 0;
+        width: 92%;
+    }
+    .rows {
+        
+       width: 100%;
+       flex-wrap: wrap;
+       justify-content: space-between;
+    }
+    .about-container .col-3 {
+        width: 43%;
+        height: auto;
+        margin-top: 40px;
+    }
    
 }
 @media (max-width:428px){
@@ -375,6 +389,12 @@ img {
     .about-container p {
         font-size: 20px;
         text-align: left;
+    }
+    .about-container .my-hobby {
+        width: 83%;
+    }
+    .about-container .col-3 {
+        width: 100%;
     }
 }
 
