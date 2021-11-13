@@ -467,6 +467,9 @@ img {
         width: 95%;
    
     }
+    .edu-container .border-bottom {
+        width: 50%;
+    }
     nav {
         position: static;
 
