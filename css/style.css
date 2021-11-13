@@ -322,8 +322,35 @@ img {
     border-radius: 10px;
     box-shadow: 0 0 3px 3px grey;
 }
-.edu-container h1{
+.edu-container  h1{
     text-align: center;
+}
+.edu-container .border-bottom {
+    
+    width: 10%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-bottom: 3px solid rgb(252, 181, 176);
+}
+.edu-container .my-skill .rows {
+    background: E5E5E5;
+    border-radius: 2px;
+    padding: 0;
+    width: 100%;
+    box-shadow: none;
+}
+.col-4 {
+    width: 27%;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.col-4:hover {
+    background-color: #ddd;
+    transition: 0.8s;
 }
 
 
@@ -341,20 +368,29 @@ img {
 
 
 
-
-
 @media (max-width:786px){
+    .edu-container .col-4 {
+        width: 40%;
+    }
+    
+    .edu-container .border-bottom {
+        width: 30%;
+    }
+    
     .edu-container .rows{
+        width: 92%;
         flex-wrap: wrap;
         padding: 30px;
-       
+       justify-content: space-between;
+     
     }
     .edu-container .rows .col-3{
-        width: 44%;
+        width: 41%;
         margin: 5px  ;
         margin-top: 15px;
         margin-bottom: 15px;
     }
+    
     .logo {
         display: none;
     }
@@ -426,6 +462,14 @@ img {
     }
     .edu-container .rows .col-3 {
         width: 100%;
+    }
+    .edu-container .rows .col-4 {
+        width: 95%;
+   
+    }
+    nav {
+        position: static;
+
     }
     .menu {
         width: 50%;
