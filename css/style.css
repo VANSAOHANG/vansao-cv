@@ -74,7 +74,7 @@ nav .active,nav .nav-item:hover,nav  .nav-link:hover{
 span {
     color: rgba(240, 89, 78, 1);;
 }
-.btn-one {
+.btn-one, .btn-download {
     background: rgba(240, 89, 78, 1);
     color: #fff;
     padding: 10px 15px;
@@ -82,10 +82,21 @@ span {
     border: none;
     transition: 0.8s;
 }
-.btn-one:hover {
+.btn-one:hover, .btn-download:hover {
     background: none;
     color: rgba(240, 89, 78, 1);
     border:1px solid rgba(240, 89, 78, 1);
+}
+.btn-one :hover {
+    outline: none;
+}
+.btn-download a {
+    text-decoration: none;  
+    color: #fff;
+}
+.btn-download a:hover {
+    
+    color:rgba(240, 89, 78, 1);
 }
 
 
