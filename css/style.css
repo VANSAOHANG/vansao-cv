@@ -425,6 +425,19 @@ img {
 
 
 @media (max-width:786px){
+    .contact {
+        width: 80%;
+    }
+    .contact .form-container {
+        width: 100%;
+    }
+    .contact .province {
+        width: 100%;
+    }
+   
+    iframe {
+        width: 100%;
+    }
     .edu-container .col-4 {
         width: 40%;
     }
@@ -513,6 +526,13 @@ img {
    
 }
 @media (max-width:428px){
+    .location-name {
+        width: 100%;
+        text-align: center;
+    }
+    .socail  {
+        display: none;
+    }
     .edu-container .rows {
         width: 80%;
     }
