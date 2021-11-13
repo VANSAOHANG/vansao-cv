@@ -116,28 +116,81 @@ footer h4 {
 
 
 /* --------------------Contact me--------------- */
+.contact {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact h1 {
+    width: 100%;
+    text-align: center;
+}
+.contact h1 span:hover {
+    
+    border-bottom: 2px solid sienna;
+}
+.contact .location{
+    width: 100%;
+    
+}
+.contact .province {
+    width: 40%;
+    background:none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 30px;
+}
+.province .province-name {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.province h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.location-name, .socail {
+    width: 49%;
+    padding: 10px;
+
+}
+.socail h4 {
+    padding: 10px;
+}
+.location {
+    margin: 50px 0 50px 0;
+}
 .form-container {
+    box-shadow: 0 0 3px 3px #E5E5E5;
     border-radius: 10px;
-    width: 20%;
-    margin-top: 5%;
-    background:pink;
+    width: 40%;
+    
+    background:#E5E5E5;
 }
 
 .form-group {
     padding: 10px;
 }
 .form-control {
-    
-    padding: 10px;
+    border: none;
+    padding: 15px;
     width: 100%;
     box-sizing: border-box;
-    border: none;
     outline: none;
     border-radius: 5px;
 }
 .two-input {
     display: flex;
+    width: 100%;
 }
+.two-input .form-group{
+    width: 100%;
+}
+
 .form-container .button {
     display: flex;
     justify-content: center;
@@ -165,14 +218,14 @@ footer h4 {
 
 }
 .fa-user {
-    color: teal;
+    color: black;
 }
 .user-logo{
     width: 30px;
     height: 30px;
     border-radius: 40px;
     padding: 10px;
-    background: lightblue;
+    background: rgba(240, 89, 78, 1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,6 +233,9 @@ footer h4 {
 }
 .form-control:hover{
     border: 2px solid lightblue;
+}
+.form-container:hover {
+    box-shadow: 0 0 3px 3px lightblue;
 }
 
 
