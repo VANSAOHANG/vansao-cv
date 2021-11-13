@@ -408,10 +408,42 @@ img {
     background-color: #ddd;
     transition: 0.8s;
 }
+.col-6 {
+    width: 40%;
+    margin: 100px 50px;
 
-
-
-
+}
+.hard-skill {
+    background: none;
+}
+.hard-skill h3 {
+    margin-bottom: 0;
+    padding: 10px;
+}
+.border {
+    width: 95%;
+    height: 15px;
+    background: none;
+    border: 1px solid ;
+    border-radius: 40px;
+}
+.fill {
+    height: 100%;
+    background: rgb(250, 139, 131);
+    border-radius: 40px;
+}
+.fill-one {
+    width: 65%;
+}
+.fill-two {
+    width: 70%;
+}
+.fill-three {
+    width: 80%;
+}
+.fill-four {
+    width: 90%;
+}
 
 
 
@@ -425,6 +457,9 @@ img {
 
 
 @media (max-width:786px){
+    .edu-container .col-6 {
+        width: 100%;
+    }
     .contact {
         width: 80%;
     }
@@ -526,6 +561,19 @@ img {
    
 }
 @media (max-width:428px){
+    .edu-container .col-6 .border{
+        height: 10px;
+        
+    }
+    .edu-container .col-6{
+        margin: 20px;
+
+    }
+    .edu-container .col-6 .p-top-zero{
+        padding-top: 0;
+
+    }
+    
     .location-name {
         width: 100%;
         text-align: center;
