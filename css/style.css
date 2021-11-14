@@ -6,7 +6,7 @@ body {
    
 }
 nav{
-    background: #fff;
+    background: rgb(247, 243, 243);
     display: flex;
     justify-content: space-around;
     position: sticky;
@@ -602,7 +602,7 @@ img {
         display: none;
     }
     .edu-container .rows {
-        width: 80%;
+        width: 90%;
     }
     .edu-container .rows .col-3 {
         width: 100%;
@@ -637,7 +637,7 @@ img {
         height: 40vh;
     }
     .home h1 {
-        font-size: 35px;
+        font-size: 30px;
     }
     .home p {
         font-size: 15px;
@@ -657,11 +657,11 @@ img {
         margin-left: 21px;
     }
     .about-container header {
-        height: 120vh;
+        height: 110vh;
     }
     .text-info {
         padding: 20px;
-        height: 940vh;
+   
 
     }
     .about-container h1 {
@@ -669,17 +669,27 @@ img {
         margin-top: 50px;
     }
     .about-container p {
-        font-size: 20px;
+        font-size: 19px;
         text-align: left;
+        line-height: 2rem;
     }
+    
     .about-container .my-hobby {
-        width: 83%;
+        width: 96%;
+    }
+    .about-container .rows {
+        width: 99%;
+        
+        padding: 8px;
     }
     .about-container .col-3 {
         width: 100%;
     }
     .about-container .images {
         left: 118px;
+    }
+    .about-container .foot-container {
+        margin-top: 50px;
     }
     .foot-link {
         margin-left: 20px;
