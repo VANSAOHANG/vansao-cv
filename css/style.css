@@ -620,9 +620,9 @@ img {
     }
     .menu {
         width: 50%;
-        margin: auto;
+        
         text-align: center;
-        margin-left: 90px;
+        margin-left: 70px;
     }
     .menu ul{
         display: block;
@@ -654,7 +654,7 @@ img {
     }
     .follow {
         display: flex;
-        margin-left: 50px;
+        margin-left: 21px;
     }
     .about-container header {
         height: 120vh;
@@ -680,6 +680,9 @@ img {
     }
     .about-container .images {
         left: 118px;
+    }
+    .foot-link {
+        margin-left: 20px;
     }
 }
 
