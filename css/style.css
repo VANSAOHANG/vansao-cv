@@ -609,7 +609,10 @@ img {
         padding: 0;
     }
     .edu-container .rows .col-3 {
-        width: 100%;
+        width: 85%;
+        margin-left:auto ;
+        margin-right:auto ;
+        
     }
     .edu-container .rows .col-4 {
         width: 100%;
@@ -685,9 +688,12 @@ img {
         width: 96%;
         
         padding: 8px;
+        padding-bottom: 40px;
     }
     .about-container .col-3 {
-        width: 100%;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
     }
     .about-container .images {
         left: 136px;
