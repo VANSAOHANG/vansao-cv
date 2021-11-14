@@ -601,16 +601,20 @@ img {
     .socail  {
         display: none;
     }
+    .edu-container {
+        width: 100%;
+    }
     .edu-container .rows {
-        width: 90%;
+        width: 100%;
+        padding: 0;
     }
     .edu-container .rows .col-3 {
         width: 100%;
     }
     .edu-container .rows .col-4 {
-        width: 95%;
-   
+        width: 100%;
     }
+    
     .edu-container .border-bottom {
         width: 50%;
     }
@@ -675,10 +679,10 @@ img {
     }
     
     .about-container .my-hobby {
-        width: 96%;
+        width: 99%;
     }
     .about-container .rows {
-        width: 99%;
+        width: 96%;
         
         padding: 8px;
     }
@@ -686,7 +690,7 @@ img {
         width: 100%;
     }
     .about-container .images {
-        left: 118px;
+        left: 136px;
     }
     .about-container .foot-container {
         margin-top: 50px;
