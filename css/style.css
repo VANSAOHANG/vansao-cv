@@ -1,16 +1,18 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "montserrat";
+    font-family: "montserrat", sans-serif;
+
+   
 }
 nav{
     background: #fff;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     position: sticky;
     top: 0px;
     z-index: 99999;
-
+    padding: 10px;
 
 }
 .logo {
@@ -18,7 +20,7 @@ nav{
     margin-left: 75px;
 }
 .menu {
-    margin-right: 75px;
+    margin-right: 90px;
     display: flex;
 }
 .menu ul{
@@ -32,27 +34,27 @@ nav{
 .nav-link {
     text-decoration: none;
     font-size: 22px;
-    padding:10px ;
     color: black;
-    
+    padding: 10px;
 }
 
-.download-cv {
-    margin: 10px;
-    padding: 10px;
-    
-}
-.download-cv a {
-    color: black;
-}
+
 nav ul:hover {
     color: #fff;
     
 }
-nav .active,nav .nav-item:hover,nav  .nav-link:hover{
-    background: rgba(240, 89, 78, 1);
+ nav .nav-link:hover {
+    transition: 0.8s;
     color: #fff;
-  
+    background: rgba(240, 89, 78, 1);
+}
+nav .active{
+
+    color: rgba(240, 89, 78, 1);
+    border-bottom: 2px solid #4d4444 ;
+}
+nav .active:hover {
+    border-bottom: 0px;
 }
 .home {
     width: 100%;
@@ -102,7 +104,9 @@ span {
 
 /* ----------------------- Footer   -------------- */
 .foot-container {
-    margin: 0 75px;
+    background: #000;
+    color: white;
+    padding: 40px 75px;
     display: flex;
     justify-content: space-between;
 }
@@ -122,6 +126,11 @@ footer .form-control {
 }
 footer h4 {
     text-align: center;
+    
+}
+footer .nav-link {
+    color: white;
+    
 }
 
 
@@ -165,9 +174,12 @@ footer h4 {
 }
 
 .location-name, .socail {
-    width: 49%;
+    width: 48%;
     padding: 10px;
 
+}
+.socail {
+    padding-top: 10px;
 }
 .socail h4 {
     padding: 10px;
@@ -521,10 +533,7 @@ img {
     .hide-form {
         display: none;
     }
-    footer {
-        width: 80%;
-        margin: auto;
-    }
+ 
   
     .about-container header{
         flex-wrap: wrap;
@@ -638,14 +647,14 @@ img {
     }
     .foot-container {
         display: block;
-        width: 50%;
+        width: 60%;
         margin: auto;
         text-align: center;
         
     }
     .follow {
         display: flex;
-        margin-left: 13px;
+        margin-left: 50px;
     }
     .about-container header {
         height: 120vh;
