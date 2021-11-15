@@ -672,7 +672,7 @@ header{
         margin-left: 21px;
     }
     .about-container header {
-        height: 120vh;
+        height: 140vh;
     }
     .text-info {
         padding: 20px;
@@ -704,7 +704,9 @@ header{
         margin-left: auto;
     }
     .foot-container {
-        width: 100%;
+        width: 60%;
+       margin-left: 0;
+        margin-right: 0;
     }
     .about-container .images {
         left: 136px;
